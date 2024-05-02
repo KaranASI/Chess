@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  border-style: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(./pexels-fwstudio-33348-172276.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80vh;
+  height: 80vh;
+  background-color: gray;
+  border: 20px solid rgb(55, 32, 29);
+}
+
+.square {
+  width: 10vh;
+  height: 10vh;
+}
+
+p {
+  position: relative;
+  top: 4.5vw;
+  left: 5vw;
+}
+
+.lastSquare {
+  position: relative;
+  top: 3.5vw;
+  left: 4.8vw;
+}
+
+#white {
+  background-color: white;
+}
+
+#black {
+  background-color: black;
+  color: white;
+}
