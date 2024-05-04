@@ -27,11 +27,14 @@ body {
   width: 10vh;
   height: 10vh;
 }
+.pos{
+  position: relative;
+}
 
 p {
-  position: relative;
-  top: 4.5vw;
-  left: 5vw;
+  position: absolute;
+   right :0px ;
+   bottom : 0px;
 }
 
 .lastSquare {
